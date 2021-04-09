@@ -73,7 +73,7 @@
             </uitemplate>
         </uilayout>
         <uilayout name="Fonts">
-            <uielement name="FontOptions" control="checkboxtoggle" container-attr-ng-show="AddNewFonts && !GoogleFontOption" container-attr-style="text-align:center;" attr-class="font"></uielement>
+            <uielement name="FontOptions" control="checkboxtoggle" container-attr-ng-show="AddNewFonts && !GoogleFontOption" container-attr-style="text-align:center;" attr-class="font" label="false"></uielement>
             <uielement name="FontName" control="textbox" attr-ng-model="ui.data.Font.Options.Name" attr-required="true" container-attr-ng-show="AddNewFonts && !ui.data.FontOptions.Value" attr-placeholder="Spartan"></uielement>
             <uielement name="FontFamily" control="textbox" attr-ng-model="ui.data.Font.Options.Family" attr-required="true" container-attr-ng-show="AddNewFonts && !ui.data.FontOptions.Value" attr-placeholder="'Spartan', sans-serif"></uielement>
             <uielement name="FontCss" control="textarea" attr-ng-model="ui.data.Font.Options.Css" container-attr-ng-show="AddNewFonts && !ui.data.FontOptions.Value" attr-rows="6"></uielement>
